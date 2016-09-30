@@ -10,6 +10,7 @@ module.exports = {
   },
 
   create: function(req, res){
+    console.log(req.body);
     Shirt.create(req.body, function(err, shirt){
       res.json(shirt)
     })
