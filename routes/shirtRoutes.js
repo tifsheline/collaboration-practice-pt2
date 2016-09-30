@@ -1,7 +1,7 @@
 var
   express = require('express'),
   shirtRoutes = express.Router(),
-  shirtsController = require('../controllers/shirtsController'),
+  shirtsController = require('../controllers/shirtsController.js')
   //require the model once it's created
 
 
