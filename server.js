@@ -15,6 +15,10 @@ var
     };
   });
 
+  app.get('/', function(req, res){
+    res.sendFile('index.html', {root: __dirname})
+  })
+
   function ourLogger(req, res, next){
     console.log(req.method, req.url);
     next()
