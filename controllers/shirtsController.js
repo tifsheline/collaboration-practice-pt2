@@ -1,4 +1,5 @@
-//require the model once file path is known
+var
+  Shirt = require('../models/Shirt.js')
 
 module.exports = {
 
